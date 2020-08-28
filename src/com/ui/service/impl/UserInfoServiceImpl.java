@@ -21,6 +21,8 @@ public class UserInfoServiceImpl implements UserInfoService {
 
 	@Override
 	public int deleteUserInfo(UserInfoVO ui) {
+		
+		
 		return uidao.deleteUserInfo(ui);
 	}
 
